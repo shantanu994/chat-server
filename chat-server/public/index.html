@@ -1,6 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chat Server</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <style>
+    :root{--bg:#f5f7fb;--card:#ffffff;--accent:#0366d6;--text:#0b1220}
+    html,body{height:100%}
+    body{margin:0;font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;display:flex;align-items:center;justify-content:center}
+    .container{max-width:820px;padding:28px;background:transparent;text-align:center}
+    .brand{font-weight:700;font-size:1.4rem;margin-bottom:8px}
+    .lead{color:#374151}
+    #root{margin-top:18px}
+    .btn{display:inline-block;margin-top:16px;padding:10px 16px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+    code{background:#eef2ff;padding:2px 6px;border-radius:6px;font-size:0.95em}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">Chat Server</div>
+    <p class="lead">A minimal landing page for the chat server. The single-page app mounts into the <code>#root</code> element below.</p>
+    <div id="root"></div>
+    <a class="btn" href="/robots.txt">Robots</a>
+  </div>
+</body>
 </html>
